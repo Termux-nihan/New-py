@@ -23,8 +23,8 @@ u = '\033[95m' # UNGU
 kk = '\033[33m' # KUNING -
 b = '\33[1;96m' # BIRU -
 p = '\x1b[0;34m' # BIRU +
-asu = random.choice([m,k,xr,u,b])
-my_color = [
+my_color=[B,C,P,H]
+warna=random.choice(my_color)
 #---------logo---------#
 logo=("""
 \t\033[38;5;46m╔══════════════════════════════════╗
